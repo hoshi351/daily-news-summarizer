@@ -1,0 +1,15 @@
+# Terraform の状態管理ファイル（AWSアカウントIDや環境詳細が含まれるため公開厳禁！）
+*.tfstate
+*.tfstate.*
+
+# Terraform のキャッシュ・プラグイン（容量が巨大でGitHubに弾かれる）
+.terraform/
+
+# 自動生成される ZIP ファイル
+*.zip
+
+# Python のキャッシュ・仮想環境
+__pycache__/
+*.pyc
+.venv/
+venv/
